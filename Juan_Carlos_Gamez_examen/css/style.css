@@ -1,0 +1,192 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+/*utilidades*/
+
+.menu-query{
+    display: none;
+}
+
+.cajon{
+    border-radius: 10px;
+    background-color:rgba(255, 255, 255, 0.5);
+    color: black;
+    padding: 1rem;
+    margin: 0.5rem;
+    flex: 1;
+    text-align: center;
+    font-weight: bold;
+
+}
+.cajon h2{
+    color: black;
+    margin: 0.5rem;
+}
+.cajon img, .cajon p{
+    max-width: 300px;
+    max-height: 270px;
+    border-radius: 10px;
+}
+
+/*base*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'MedievalSharp', cursive;
+    
+}
+body{
+    background-color: black;
+    color: white;
+    
+}
+.main{
+    padding: 0 15%;
+    
+}
+a{
+    text-decoration: none;
+    color: goldenrod;
+}
+p{
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: justify;
+}
+button{
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+    padding: 0.4rem 0.8rem;
+}
+h1{
+    text-align: center;
+    margin: 2rem;
+    color: goldenrod;
+}
+
+h2{
+    text-align: center;
+    margin: 2rem;
+    color: goldenrod;
+}
+h1{
+    font-size: 3rem;
+}
+
+/* Navbar*/
+nav{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+    background-color: white;
+    opacity: 0.9;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+input{
+    border-radius: 3px;
+    padding: 0.3rem;
+    border: 1px solid gray;
+}
+.busqueda{
+    display: flex;
+    align-items: center;
+}
+.cuervo-gif{
+    height: 60px;
+  
+}
+
+/*Cabecera*/
+
+.header{
+    background: url(../img/animal-89182_640.jpg) no-repeat center center/cover;
+    height: 70vh;  
+}
+.cabecera{
+    height: 60%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-bottom: 1rem;
+}
+
+
+/*section-intro*/
+
+.intro{
+    display: flex;
+}
+.intro-biologia{
+    background: url(../img/Cuervo3.JPG) no-repeat center center/cover;
+    flex: 1;
+    min-height: 220px;
+    padding: 1rem;
+}
+.intro-biologia-2{
+    background: url(../img/cuervo-poe.jpg) no-repeat center center/cover;
+    flex: 1;
+    min-height: 220px;
+    padding: 1rem;
+}
+.intro-biologia-3{
+    background: url(../img/hugin-mugin.jpg) no-repeat center center/cover;
+    flex: 1;
+    min-height: 220px;
+    padding: 1rem;
+}
+.intro-origen{
+    flex: 1;
+    text-align: center;
+    padding: 1rem;
+}
+.intro-origen h2{
+    padding: 1rem;
+    margin: 0.5rem;
+}
+
+/*cajas*/
+
+.cajonera{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    gap: 10px;
+    background: url(../img/woods-690415_1280.jpg) no-repeat center center/cover;
+}
+/*footer*/
+footer{
+    height: 10vh;
+    background-color: black;
+}
+.redes{
+    height: 100%;
+    padding: 0 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cuervo-gif-blanco{
+    height: 60px;
+}
+/*formulario*/
+
+.fondo{
+    background: black url(../img/woods-690415_1280.jpg) no-repeat center center/cover;
+}
+.form{
+    
+    padding: 1rem 3rem;
+    
+}
+.padding{
+    padding: 3rem 2.5rem;
+}
+
